@@ -1,0 +1,43 @@
+.contacts
+	position: relative
+	z-index: 2
+	&_thanks
+		text-align: left
+		width: 480px
+  margin-left: auto
+  margin-right: auto
+	&-block
+		position: absolute
+		top: 80px
+		background-color: #fff
+		padding: 15px 75px 10px 95px
+		&_thanks
+			background-color: transparent
+		 position: static
+   top: 0px
+   padding: 0px
+		&__title
+			display: block
+			font-size: 23px
+			font-weight: bold
+			margin-bottom: 8px
+			margin-top: 18px
+			&_thanks
+				font-size: 18px
+		&__text
+			margin-bottom: 30px
+			font-weight: 400
+			font-size: 20px
+			&_thanks
+				color: $text-color-light
+		&__address
+			@include contacts-icon-before("../img/map-marker.png")
+		&__phone
+			@include contacts-icon-before("../img/phone.png")
+		&__mail
+			@include contacts-icon-before("../img/email.png")
+		&__hours
+			@include contacts-icon-before("../img/hours.png")
+.map
+	width: 100%
+	height: 581px

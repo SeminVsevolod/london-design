@@ -1,0 +1,24 @@
+{
+  "name": "london-design",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ElegantCode",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-concat-css": "^3.1.0",
+    "gulp-ftp": "^1.1.0",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-minifier": "^1.2.2",
+    "gulp-plumber": "^1.2.0",
+    "gulp-sass": "^3.2.1",
+    "gulp-util": "^3.0.8",
+    "vinyl-ftp": "^0.6.1"
+  }
+}

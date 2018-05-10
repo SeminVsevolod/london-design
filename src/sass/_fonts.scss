@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'PF Agora Sans Pro';
+    src: url('../fonts/PFAgoraSansPro-Bold.eot');
+    src: local('PFAgoraSansPro-Bold'),
+        url('../fonts/PFAgoraSansPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PFAgoraSansPro-Bold.woff') format('woff'),
+        url('../fonts/PFAgoraSansPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF Agora Slab Pro';
+    src: url('../fonts/PFAgoraSlabPro-Medium.eot');
+    src: local('PFAgoraSlabPro-Medium'),
+        url('../fonts/PFAgoraSlabPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PFAgoraSlabPro-Medium.woff') format('woff'),
+        url('../fonts/PFAgoraSlabPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF Agora Sans Pro';
+    src: url('../fonts/PFAgoraSansPro-Medium.eot');
+    src: local('PFAgoraSansPro-Medium'),
+        url('../fonts/PFAgoraSansPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PFAgoraSansPro-Medium.woff') format('woff'),
+        url('../fonts/PFAgoraSansPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF Agora Sans Pro';
+    src: url('../fonts/PFAgoraSansPro-Italic.eot');
+    src: local('PFAgoraSansPro-Italic'),
+        url('../fonts/PFAgoraSansPro-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PFAgoraSansPro-Italic.woff') format('woff'),
+        url('../fonts/PFAgoraSansPro-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PF Agora Sans Pro';
+    src: url('../fonts/PFAgoraSansPro-Regular.eot');
+    src: local('PFAgoraSansPro-Regular'),
+        url('../fonts/PFAgoraSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PFAgoraSansPro-Regular.woff') format('woff'),
+        url('../fonts/PFAgoraSansPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF Agora Sans Pro';
+    src: url('../fonts/PFAgoraSansPro-Light.eot');
+    src: local('PFAgoraSansPro-Light'),
+        url('../fonts/PFAgoraSansPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PFAgoraSansPro-Light.woff2') format('woff2'),
+        url('../fonts/PFAgoraSansPro-Light.woff') format('woff'),
+        url('../fonts/PFAgoraSansPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}

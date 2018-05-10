@@ -1,0 +1,82 @@
+.mob
+ &-menu
+ 	display: none
+		background-color: rgba($text-color-dark, 0.9)
+		width: 100vw
+		height: 100vh
+		z-index: 50
+		line-height: 3
+		font-weight: 700
+		letter-spacing: 3px
+		left: -100vw
+		transition: all 0.5s
+		&-logo
+			background: url(../img/header-logo.png) center no-repeat
+			background-size: 100%
+			width: 149px
+			height: 47px
+			&__text
+				font-size: 17px
+				color: $active-color
+				font-family: 'PF Agora Slab Pro'
+				font-weight: 500
+		&_active
+			left: 0
+			top: 0
+			display: flex
+			position: fixed
+			justify-content: center
+			align-items: center
+			flex-direction: column
+		ul
+			list-style: none
+			padding: 0
+			text-align: center
+			a
+				color: rgba($active-color,0.7)
+				text-decoration: none
+				display: block
+				width: 100vw
+				transition: all 0.5s
+				&:hover
+					text-decoration: none
+					background-color: rgba($text-color-light,0.4)
+		&-link
+			display: none
+			z-index: 51
+			width: 35px
+			height: 35px
+			background-color: rgba($active-color,0.9)
+			border-radius: 4px
+			box-shadow: 3px 3px 6px rgba(#000,0.4)
+			position: fixed
+			bottom: 18px
+			right: 19px
+			span, span:before, span:after
+				display: block
+				height: 3px
+				width: 20px
+				position: absolute
+				left: 50%
+				margin-left: -10px
+				top: 50%
+				margin-top: -1px
+				background-color: #fafafa
+			span:before 
+				transition: all 0.5s
+				content: ''
+				margin-top: -7px
+			span:after
+				transition: all 0.5s
+				content: ''
+				margin-top: 5px
+			&_active span
+				background-color: transparent
+			&_active span:before
+				transform: rotate(135deg)
+				margin-top: 0
+			&_active span:after
+				transform: rotate(-135deg)
+				margin-top: 0
+
+

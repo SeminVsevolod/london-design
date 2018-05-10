@@ -1,0 +1,39 @@
+.stages
+	background: #e8e9ed url(../img/stages-bg.jpg) center no-repeat
+	background-size: cover
+	height: 450px
+	color: $text-color-light
+ display: flex
+	justify-content: center
+	flex-direction: column
+	height: 450px
+	padding-top: 20px
+	&-title
+		font-size: 50px
+		font-weight: 500
+		margin-top: 0
+	&-block
+		text-align: center
+		&__number
+			position: absolute
+			font-size: 40px
+			font-weight: 500
+			top: -18px
+			left: 25px
+		&__img
+			&:after
+				content: ''
+				display: block
+				position: absolute
+				background: url(../img/stages-arrow.png) center no-repeat
+				width: 20px
+				height: 60px
+				right: 0px
+				top: 32px
+			&_last
+				&:after
+					display: none
+		&__text
+			margin-top: 15px
+			font-size: 22px
+			font-weight: 400

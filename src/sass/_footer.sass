@@ -1,0 +1,65 @@
+.footer
+	background-color: $text-color-light
+	color: $text-color-dark
+	text-align: center
+	min-width: 50px
+	font-size: 16px
+	padding: 20px
+	.elegantcode
+  display: block
+  font-size: 14px
+  color: $active-color
+  margin-top: 10px
+ .privacy-pol
+ 	display: block
+ 	color: blue
+ 	margin-top: 10px
+ 	margin-bottom: 10px
+ &-block
+ 	&-req
+ 		text-align: left
+ 	&-contacts
+ 		text-align: center
+ 		&__number
+ 			margin-left: 30px
+ 			margin-bottom: 10px
+ 			font-size: 35px
+ 			display: inline-block
+				&:before
+					display: inline-block
+	 			background: url(../img/header-phone.png) center no-repeat
+					display: block
+					position: absolute
+					background-size: 100%
+					content: ''
+					width: 26px
+					height: 26px
+					margin-left: -35px
+					margin-top: 7px
+ 			a
+ 			 @include link-style
+ 			 color: $text-color-dark
+ 		&__retcall
+ 			margin-bottom: 10px
+ 			padding-left: 40px
+ 			padding-right: 40px
+	 	&__mail
+	 		margin-left: 30px
+	 		display: inline-block
+	 		font-size: 22px
+	 		font-weight: 400
+	 		a
+	 			@include link-style
+	 			color: $text-color-dark
+		 		&:hover
+		 			color: lighten($active-color, 10)
+				&:before
+					background: url(../img/header-mail_icon.png) center no-repeat
+					display: block
+					position: absolute
+					background-size: 100%
+					content: ''
+					width: 20px
+					height: 13px
+					margin-left: -30px
+					margin-top: 7px

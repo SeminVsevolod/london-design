@@ -1,0 +1,39 @@
+@mixin icon-before ($icon-path,$icon-w,$icon-h)
+ display: block
+	background: url($icon-path) center no-repeat
+	background-size: 100%
+	position: absolute
+	left: -12px
+	width: $icon-w
+	height: $icon-h
+	margin-top: 6px
+	content: ''
+@mixin link-style
+	color: $text-color-light
+	text-decoration: none
+@mixin block-line
+	width: 100%
+	display: block
+	padding: 0
+	border-bottom: 5px solid #dedede
+	&_left
+		width: 72px
+		height: 5px
+		position: absolute
+		border-bottom: 5px solid darken($active-color, 21)
+@mixin contacts-icon-before($icon-path)
+	position: relative
+	&:before
+		display: block
+		background: url($icon-path) center no-repeat
+		background-size: 100%
+		position: absolute
+		left: -70px
+		width: 46px
+		height: 46px
+		content: ''
+	a
+	 @include link-style
+	 color: $text-color-dark
+	 &:hover
+	 	color: lighten($active-color, 10)

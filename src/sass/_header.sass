@@ -1,0 +1,60 @@
+.header
+	padding: 13px 0
+	background: #373737 url(../img/main-bg.jpg) center no-repeat
+	background-size: cover
+	height: 534px
+	color: $text-color-light	
+	&-top
+		padding-bottom: 11px
+		border-bottom: 1px solid #78787c
+	&-logo
+		background: url(../img/header-logo.png) center no-repeat
+		background-size: 100%
+		width: 149px
+		height: 47px
+		&__text
+			font-size: 23px
+			color: $active-color
+			font-family: 'PF Agora Slab Pro'
+			font-weight: 500
+		&__desc
+			font-size: 23px
+			line-height: 33px
+	&-contacts
+		font-family: 
+		font-weight: 400
+		line-height: 26px
+		&__address
+			margin-bottom: 10px
+			&:before
+				@include icon-before("../img/header-address_map.png", 18px, 25px)
+		&__mail
+			a
+			 @include link-style
+			 &:hover
+			 	color: lighten($active-color, 10)
+			&:before
+				@include icon-before("../img/header-mail_icon.png", 20px, 13px)
+	&-phone
+		text-align: center
+		&__number
+			font-weight: 500
+			font-size: 37px
+			a
+				@include link-style
+				&:before
+					@include icon-before("../img/header-phone.png", 26px, 26px)
+					left: 2px
+					margin-top: 10px
+		&__questions
+			font-weight: 400
+			font-size: 18px
+		&__retcall
+			font-weight: 500
+			font-size: 18px
+			a
+				color: $active-color
+			 text-decoration: underline
+			 cursor: pointer
+	&-thanks
+		height: auto

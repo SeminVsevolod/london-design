@@ -1,0 +1,59 @@
+.prices
+	background-color: #000
+	padding-top: 55px
+	padding-bottom: 70px
+	&-title
+		font-size: 50px
+		font-weight: 500
+		margin-top: 0
+		margin-bottom: 45px
+		color: $text-color-light
+	&-block
+		background-color: #fff
+		padding: 0px
+		&_flex
+			display: flex
+			justify-content: space-between;
+	  flex-direction: column;
+	  align-items: center;
+	  height: 400px
+		&__img
+		&__title
+			padding-left: 0
+			font-weight: 400
+			font-size: 25px
+		&__line
+			@include block-line
+		&__services
+			padding-left: 15px
+			left: 0
+   width: 100%
+		&__service
+			font-size: 17px
+			font-weight: 400
+			line-height: 22px
+			list-style-type: none
+			margin-left: 15px
+			margin-top: 10px
+			&_italic
+				font-style: italic
+			&:before
+				content: '•'
+				color: $active-color
+				position: absolute;
+    left: 30px;
+		&__price
+			font-size: 30px
+			font-weight: 700
+			text-align: center
+			.val
+				font-size: 20px
+			sup
+				font-size: 15px
+		&__submit
+			display: flex
+			margin: 25px 15px 15px 15px
+			font-size: 17px
+			font-weight: 500
+			text-align: center
+			padding: 9px 15px
