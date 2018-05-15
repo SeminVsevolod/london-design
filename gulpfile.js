@@ -37,7 +37,7 @@ gulp.task('deploy', function() {
   var conn = ftp.create({
     host:      'ftp.elegantcode.ru',
     user:      'a0177931',
-    password:  'esiguzwiim',
+    password:  '********',
     parallel:  10,
     log: gutil.log
   });
