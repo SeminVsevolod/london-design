@@ -26,4 +26,4 @@ gulp
 
 ## Результат
 
-Просмотреть результат в браузере можно по ссылке [http://elegantcode.ru/london-design.ru/src/index.html](http://elegantcode.ru/london-design.ru/src/index.html).
+![london-design](https://user-images.githubusercontent.com/35951053/85412884-c0934e80-b572-11ea-9259-ff42607e7296.png)
